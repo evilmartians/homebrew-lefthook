@@ -1,2 +1,2 @@
 # hookah-homebrew-tap
-Homebrew Formulae to hookah
+Homebrew Formulae for hookah git hooks manager
