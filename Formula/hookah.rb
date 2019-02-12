@@ -2,13 +2,14 @@
 class Hookah < Formula
   desc "Simple git hooks manager"
   homepage "https://github.com/Arkweid/hookah"
-  url "https://github.com/Arkweid/hookah/releases/download/v0.1.0/hookah_0.1.0_MacOS_x86_64.tar.gz"
-  version "0.1.0"
-  
+  url "https://github.com/Arkweid/hookah/releases/download/v0.1.1/hookah_0.1.1_MacOS_x86_64.tar.gz"
+  version "0.1.1"
+  sha256 "ae8b7d566945985606774ba4d8ecdd03c0fa2d0528e2466c41f0b2aaf2f3df76"
+
   def install
     bin.install "hookah"
   end
-  
+
   test do
     system "#{bin}/hookah -v"
   end
