@@ -4,7 +4,7 @@ class Hookah < Formula
   homepage "https://github.com/Arkweid/hookah"
   url "https://github.com/Arkweid/hookah/releases/download/v0.1.2/hookah_0.1.2_MacOS_x86_64.tar.gz"
   version "0.1.2"
-  sha256 "d2eb7cdb14d7548bab3cb1d36d12199631798ed6a437a94fce98cb6f262f96cd"
+  sha256 "7cabd14f5a3235fa12c2c0d77cfe5ae1789aef897f03672c7f9b2f616eb5cc24"
 
   def install
     bin.install "hookah"
