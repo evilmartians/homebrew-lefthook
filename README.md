@@ -1,2 +1,2 @@
-# homebrew-hookah
-Homebrew Formulae for hookah git hooks manager
+# homebrew-lefthook
+Homebrew Formulae for lefthook git hooks manager
