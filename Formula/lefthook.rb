@@ -2,9 +2,9 @@
 class Lefthook < Formula
   desc "Lefthook a single dependency-free binary to manage all your git hooks that works with any language in any environment, and in all common team workflows"
   homepage "https://github.com/Arkweid/lefthook"
-  url "https://github.com/Arkweid/lefthook/releases/download/v0.3.0/lefthook_0.3.0_MacOS_x86_64.tar.gz"
-  version "0.3.0"
-  sha256 "e91cf499dfe0058ef56e9b9d1f80506841b8ab2be1668656b4bf083da4b058c0"
+  url "https://github.com/Arkweid/lefthook/releases/download/v0.3.1/lefthook_0.3.1_MacOS_x86_64.tar.gz"
+  version "0.3.1"
+  sha256 "6fa2f683173e0d5b067390d7c6bf034c19ce2f216d40caf377c4bfcbf59f9ca0"
 
   def install
     bin.install "lefthook"
