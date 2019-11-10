@@ -4,7 +4,7 @@ class Lefthook < Formula
   homepage "https://github.com/Arkweid/lefthook"
   url "https://github.com/Arkweid/lefthook/releases/download/v0.6.4/lefthook_0.6.4_MacOS_x86_64.gz"
   version "0.6.4"
-  sha256 "666420339268260ac8a953014b46215ee568882853d1204765ed679af616c943"
+  sha256 "95005d3fcd7e8abe3a15ed0b7d76d722b4eb59500615e1836e99f4b93f93f0e1"
 
   def install
     bin.install "lefthook"
