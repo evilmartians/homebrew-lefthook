@@ -1,10 +1,16 @@
 # homebrew-lefthook
+
 Homebrew Formulae for lefthook git hooks manager
 
 # How to publish new version in Homebrew
-Just update this sections to newest one:
+
+Just create a PR with updated url and sha:
+
 ```
-  url "https://github.com/Arkweid/lefthook/releases/download/v0.7.2/lefthook_0.7.2_MacOS_x86_64.gz"
-  version "0.7.2"
-  sha256 "e8ac1b4e743d59331706710e72268255645edc3c449a7ba9b24ddbd803566c4e"
+  url "https://github.com/evilmartians/lefthook/archive/refs/tags/v0.7.2.tar.gz"
+  sha256 "a662015ba6ed42dda83b634995363d1d68ac6e4c2c5e1a9582735380cef32524"
 ```
+
+Wait until the pull request’s checks become green. Then label pull request with the `pr-pull` label. A new brew pr-pull workflow will be fired up and after a couple of minutes you should observe the PR closed, bottles uploaded and commits pushed to the main branch of your repository.
+
+Source: https://brew.sh/2020/11/18/homebrew-tap-with-bottles-uploaded-to-github-releases/
