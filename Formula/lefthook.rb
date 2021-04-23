@@ -6,9 +6,9 @@ class Lefthook < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/evilmartians/homebrew-lefthook/releases/download/lefthook-0.7.2"
-    sha256 cellar: :any_skip_relocation, catalina:     "9261e13f72f2c5c95df9b79ae303fa08bdfd64ba48864233899d958c50cc817c"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "554f57ca40a7479395e1f71a10e290b2c3d1c1e50f0ed64042b742b5a6fdc5aa"
+    root_url "https://github.com/evilmartians/homebrew-lefthook/releases/download/lefthook-0.7.3"
+    sha256 cellar: :any_skip_relocation, catalina:     "e4444f087613af0c1aef32c442c4597b4da96aa0c04c8164e3df5ad88348178d"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "d76690af924424b44d124b8ff19604d3ccda9aa5a47dadbf5164e4020651b683"
   end
 
   depends_on "go" => :build
