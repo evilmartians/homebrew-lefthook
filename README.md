@@ -2,6 +2,14 @@
 
 Homebrew Formulae for lefthook git hooks manager
 
+# This tap is deprecated!
+
+As `lefthook` formula has been added to Homebrew Core, install [Lefthook](https://github.com/evilmartians/lefthook) from there instead:
+
+```sh
+brew install lefthook
+```
+
 # How to publish new version in Homebrew
 
 Just create a PR with updated url and sha:
